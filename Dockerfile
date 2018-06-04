@@ -1,4 +1,5 @@
-FROM fabric8/java-jboss-openjdk8-jdk:1.3.1
+FROM services.lab5.example.com:5000/redhat-openjdk-18/openjdk18-openshift
+#FROM fabric8/java-jboss-openjdk8-jdk:1.3.1
 
 ENV JAVA_APP_JAR hola-swarm.jar
 ENV AB_ENABLED off
